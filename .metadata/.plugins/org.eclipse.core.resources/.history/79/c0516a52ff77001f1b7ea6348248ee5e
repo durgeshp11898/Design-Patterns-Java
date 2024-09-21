@@ -1,0 +1,12 @@
+package com.dp.learn;
+
+public class SingletonDemo {
+    public static void main(String[] args) {
+        // Get the single instance of the Singleton class
+        Singleton singletonInstance = Singleton.getInstance();
+        
+        System.out.println("Hashcode:"+singletonInstance.hashCode());
+        // Call a method on the instance
+        singletonInstance.showMessage();
+    }
+}
