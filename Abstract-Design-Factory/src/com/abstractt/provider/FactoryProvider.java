@@ -12,6 +12,7 @@ public class FactoryProvider {
 		if ("Animal".equalsIgnoreCase(choice)) {
 
 			return new AnimalFactory();
+			
 		} else if ("Color".equalsIgnoreCase(choice)) {
 
 			return new ColorFactory();
