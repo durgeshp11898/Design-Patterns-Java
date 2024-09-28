@@ -1,5 +1,0 @@
-package com.learn.eager;
-
-public class EagerSingleton {
-
-}
